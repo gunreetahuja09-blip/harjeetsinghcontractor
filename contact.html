@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Harjeet Singh Contractor - Request a civil engineering quote, submit government bidding parameters, or locate our corporate headquarters.">
+  <title>Contact & Request Quote | Harjeet Singh Contractor</title>
+  
+  <!-- Universal Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header / Navbar -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo" id="nav-logo">
+        <div class="logo-icon">HSC</div>
+        <div class="logo-text">
+          Harjeet Singh
+          <span class="logo-sub">Contractor</span>
+        </div>
+      </a>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="projects.html" class="nav-link">Projects Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-primary">Request a Quote</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu Icon for Mobile -->
+      <button class="hamburger" id="hamburger-toggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header" id="contact-page-header">
+    <div class="container">
+      <h1>Contact & Inquiry</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-current">Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section Content -->
+  <section class="section-padding" id="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Left Side: Corporate Info panel -->
+        <div class="contact-info-panel">
+          <h2>Get in Touch</h2>
+          <p>Contact our administrative headquarters for tenders, bidding invitations, or structural civil engineering inquiries. We respond within 24 hours.</p>
+          
+          <div class="contact-detail-list">
+            <!-- Office Address -->
+            <div class="contact-detail-item">
+              <span class="contact-detail-icon">&#128205;</span>
+              <div class="contact-detail-content">
+                <h4>Physical Office Headquarters</h4>
+                <p>House No. 87, GTB Nagar, Jalandhar, Punjab, 144003</p>
+              </div>
+            </div>
+
+            <!-- Telephone -->
+            <div class="contact-detail-item">
+              <span class="contact-detail-icon">&#128222;</span>
+              <div class="contact-detail-content">
+                <h4>Direct Phone Lines</h4>
+                <p>+91 9888151558</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-detail-item">
+              <span class="contact-detail-icon">&#9993;</span>
+              <div class="contact-detail-content">
+                <h4>Procurement & Tenders Email</h4>
+                <p>tenders@harjeetsinghcontractor.com <br> info@harjeetsinghcontractor.com</p>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="contact-detail-item">
+              <span class="contact-detail-icon">&#9200;</span>
+              <div class="contact-detail-content">
+                <h4>Operating Hours</h4>
+                <p>Monday - Saturday: 09:00 AM - 06:00 PM <br> Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Registration numbers -->
+          <div class="contact-license">
+            <p><strong>Government Contractor Code:</strong> PWD-C1-84920</p>
+            <p><strong>Class:</strong> Class-I Sole Proprietorship Registration</p>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact / Inquiry Form -->
+        <div class="contact-form-panel">
+          <h2>Request a Quote</h2>
+          <p>Please supply your project requirements. Our engineering team will review plans and draft a structural cost estimate.</p>
+          
+          <form id="inquiry-form" novalidate>
+            <div class="form-group-row">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" class="form-input" placeholder="e.g. John Doe">
+                <span id="full-name-error" class="error-message"></span>
+              </div>
+              
+              <!-- Organization/Department -->
+              <div class="form-group">
+                <label for="organization">Organization / Government Dept *</label>
+                <input type="text" id="organization" class="form-input" placeholder="e.g. PWD / Private Dev Corp">
+                <span id="organization-error" class="error-message"></span>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" class="form-input" placeholder="e.g. j.doe@organization.com">
+                <span id="email-error" class="error-message"></span>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="phone">Phone Number (Optional)</label>
+                <input type="tel" id="phone" class="form-input" placeholder="e.g. +91 98765 43210">
+                <span id="phone-error" class="error-message"></span>
+              </div>
+            </div>
+
+            <!-- Project Type Dropdown -->
+            <div class="form-group">
+              <label for="project-type">Project Type *</label>
+              <select id="project-type" class="form-input">
+                <option value="" disabled selected>-- Select Project Type --</option>
+                <option value="Road Construction">Road Construction & Highways</option>
+                <option value="Building Construction">Commercial & Civic Buildings</option>
+                <option value="Infrastructure Refurbishment">Infrastructure Refurbishment</option>
+                <option value="General Civil Works">General Civil Works / Other</option>
+              </select>
+              <span id="project-type-error" class="error-message"></span>
+            </div>
+
+            <!-- Message Detail -->
+            <div class="form-group">
+              <label for="message">Project Requirements / Bidding Guidelines *</label>
+              <textarea id="message" class="form-input" rows="5" placeholder="Please outline road length, structural scope, materials guidelines, soil parameters, or timelines..."></textarea>
+              <span id="message-error" class="error-message"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Submit Quote Request</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Footer Info -->
+      <div class="footer-info">
+        <h3>Harjeet Singh Contractor</h3>
+        <p>A trusted, government registered Class-I contractor specializing in major civil works, civil construction, and civic buildings development since 1996.</p>
+        <p><strong>License:</strong> SEC-GC-ClassI/84920-B</p>
+      </div>
+      
+      <!-- Footer Navigation Links -->
+      <div class="footer-links">
+        <h3>Quick Navigation</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects Portfolio</a></li>
+          <li><a href="contact.html">Contact & Inquiry</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Contact details -->
+      <div class="footer-contact">
+        <h3>Office Headquarters</h3>
+        <ul>
+          <li>
+            <span class="footer-contact-icon">&#128205;</span>
+            <span>House No. 87, GTB Nagar, Jalandhar, Punjab, 144003</span>
+          </li>
+          <li>
+            <span class="footer-contact-icon">&#128222;</span>
+            <span>+91 9888151558</span>
+          </li>
+          <li>
+            <span class="footer-contact-icon">&#9993;</span>
+            <span>tenders@harjeetsinghcontractor.com</span>
+          </li>
+          <li>
+            <span class="footer-contact-icon">&#9200;</span>
+            <span>Mon - Sat: 09:00 AM - 06:00 PM</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Copyright & Registrations -->
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Harjeet Singh Contractor. All rights reserved.</p>
+      <div class="footer-licenses">
+        <span>Govt. Contractor Class-I Reg No: #9843-PWD</span>
+        <span>GSTIN: 27AAAAA1111A1Z1</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Universal JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
